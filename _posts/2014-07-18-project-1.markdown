@@ -1,0 +1,7 @@
+---
+layout: default
+fa: btc
+link: https://thenextweb.com/evergreen/2017/07/04/ultimate-3500-word-plain-english-guide-blockchain/#.tnw_zc4TPhV7
+description: The ultimate, 3500-word, plain English guide to blockchain
+
+---

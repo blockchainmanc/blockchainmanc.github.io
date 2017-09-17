@@ -1,0 +1,51 @@
+# Site settings
+title: Blockchain Manchester
+small_title: BM
+email: andy@whatsthescore.co.uk
+url: https://blockchainmanc.github.io/
+description: "All things Blockchain, Love from Manchester"
+keywords: "Blockchain"
+strapline: "All things Blockchain, Love from Manchester"
+meta_author: Manchester Blockcahin
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  location: Location
+  social: Social
+  wallets: Wallets
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/blockchain_manc
+  - title: github
+    url: http://github.com/jekyll
+  - title: slack
+    url: https://blockchainmanc.slack.com
+
+# wallets for tips
+wallets:
+  - coin: BTC
+    account: ffflklksjdfl
+  - coin: ETH
+    account: 0x902384alksdja
+  - coin: LTC
+    account: lkasjlkajsd
+
+# Build settings
+markdown: kramdown
+permalink: pretty
