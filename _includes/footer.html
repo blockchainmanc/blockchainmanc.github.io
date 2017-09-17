@@ -1,11 +1,11 @@
 <!-- Footer -->
-<footer >
+<footer>
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-6">
+                <div class="footer-col col-md-4">
                     <h3>{{ site.footer.wallets }}</h3>
-                    <p class="small">Donations towards keeeping Blockchain Machester always welcome</p>
+                    <p class="small">Donations always welcome</p>
                     <ul class="list-unstyled">
                         {% for wallet in site.wallets %}
                         <li>
@@ -14,7 +14,7 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="footer-col col-md-6">
+                <div class="footer-col col-md-4 text-center">
                     <h3>{{ site.footer.social }}</h3>
                     <ul class="list-inline">
                         {% for network in site.social %}

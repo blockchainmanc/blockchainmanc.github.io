@@ -40,11 +40,11 @@ social:
 # wallets for tips
 wallets:
   - coin: BTC
-    account: ffflklksjdfl
+    account: 1FtAP6ktAr49wgF5m6xyQN5CPCdvQ8jnQK
   - coin: ETH
-    account: 0x902384alksdja
+    account: 0x
   - coin: LTC
-    account: lkasjlkajsd
+    account: 0x
 
 # Build settings
 markdown: kramdown
