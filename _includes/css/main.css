@@ -273,7 +273,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary }} !important;
+    background-color: #{{ site.color.secondary-light }} !important;
 }
 
 /* Fix modal mouse wheel issues */
