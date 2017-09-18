@@ -16,10 +16,10 @@ bing_verify:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 333333
+  primary-rgb: "51,51,51"
+  secondary: 666666
+  secondary-dark: 444444
 
 # Footer settings
 footer:
@@ -28,7 +28,7 @@ footer:
   wallets: Wallets
   credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
   - title: twitter
     url: http://twitter.com/blockchain_manc
