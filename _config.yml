@@ -11,8 +11,6 @@ meta_author: Manchester Blockcahin
 # Google webmaster tools
 google_verify:
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -23,10 +21,8 @@ color:
 
 # Footer settings
 footer:
-  location: Location
   social: Social
   wallets: Wallets
-  credits: Credits
 
 # Social networks
 social:
