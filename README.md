@@ -1,3 +1,3 @@
+# Blockchain Manchester Website
 
-## https://github.com/jeromelachaud/freelancer-theme
-
+Based on https://github.com/jeromelachaud/freelancer-theme
