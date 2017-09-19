@@ -272,12 +272,8 @@ footer .footer-below {
     outline: 0;
 }
 
-#navbar-brand.a:hover, #navbar-brand.a:focus, #navbar-brand.a:active {
-    color: #{{ site.color.secondary-light }} !important;
-}
-
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-light }} !important;
+    background-color: #{{ site.color.primary }} !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -287,6 +283,5 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-.thumbnail {
-    min-height: 200px;
-}
+
+
