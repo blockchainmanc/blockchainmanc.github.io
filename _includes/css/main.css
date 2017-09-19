@@ -272,7 +272,7 @@ footer .footer-below {
     outline: 0;
 }
 
-a.navbar-brand:hover, a.navbar-brand:focus, a.navbar-brand:active {
+#navbar-brand.a:hover, #navbar-brand.a:focus, #navbar-brand.a:active {
     color: #{{ site.color.secondary-light }} !important;
 }
 
