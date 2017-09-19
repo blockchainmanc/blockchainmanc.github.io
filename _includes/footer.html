@@ -9,7 +9,8 @@
                     <ul class="list-unstyled">
                         {% for wallet in site.wallets %}
                         <li>
-                            {{ wallet.coin }}: {{ wallet.account }}
+                            <strong>{{ wallet.coin }}</strong>: {{ wallet.account }} <img src="{{wallet.img}}" width="75px" height="75px">
+                            <hr>
                         </li>
                         {% endfor %}
                     </ul>

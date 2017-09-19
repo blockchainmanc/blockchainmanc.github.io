@@ -30,7 +30,7 @@ social:
   - title: twitter
     url: http://twitter.com/blockchain_manc
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/blockchainmanc
   - title: slack
     url: https://blockchainmanc.slack.com
 
@@ -38,10 +38,13 @@ social:
 wallets:
   - coin: BTC
     account: 1FtAP6ktAr49wgF5m6xyQN5CPCdvQ8jnQK
+    img: /img/btc_qrcode_150x150.png
   - coin: ETH
-    account: 0x
+    account: 0x1652B165619b999065133428dd93023E7073254e
+    img: /img/eth_qrcode_150x150.png
   - coin: LTC
-    account: 0x
+    account: LddXUkD37wSkoLh23EptoRyFnpbzUZnLpk
+    img: /img/ltc_qrcode_150x150.png
 
 # Build settings
 markdown: kramdown

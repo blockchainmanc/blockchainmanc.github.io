@@ -2,18 +2,18 @@
 
 ### Dependencies
 
-Ruby > 2.x
-Jekyll
+* Requires - **Ruby > 2.x** or `brew install ruby`
+* Jekyll
+```
+gem install jekyll bundler
+jekyll -v
+```
 
 ### Running jekyll locally
 
-TODO: This is probably not the best way to run this? Improve
-
 ```
-jekyll build
-bundle exec jekyll serve --watch
+./run.sh
 ```
-
 
 ### Reference
 
