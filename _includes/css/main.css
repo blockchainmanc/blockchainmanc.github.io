@@ -143,7 +143,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
@@ -168,6 +168,10 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+.navbar-brand {
+    font-size: 0.85em;
 }
 
 section {
@@ -283,5 +287,8 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
+.list-unstyled li {
+    padding-bottom: 1em;
+}
 
 
