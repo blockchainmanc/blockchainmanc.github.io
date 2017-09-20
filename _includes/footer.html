@@ -16,6 +16,11 @@
                     </ul>
                 </div>
                 <div class="footer-col col-md-4 text-center">
+                    <h3></h3>
+                    <ul class="list-inline">
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4 text-center">
                     <h3>{{ site.footer.social }}</h3>
                     <ul class="list-inline">
                         {% for network in site.social %}
@@ -23,11 +28,6 @@
                             <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
-                    </ul>
-                </div>
-                <div class="footer-col col-md-4 text-center">
-                    <h3></h3>
-                    <ul class="list-inline">
                     </ul>
                 </div>
             </div>
