@@ -3,19 +3,20 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4 text-center">
+                <div class="footer-col col-md-5 text-center">
                     <h3>{{ site.footer.wallets }}</h3>
                     <p class="small">Donations always welcome</p>
                     <ul class="list-unstyled">
                         {% for wallet in site.wallets %}
                         <li>
-                            <strong>{{ wallet.coin }}</strong><br/><span class="hidden-xs">{{ wallet.account }}</span>
-                            <a href="{{wallet.explorer}}" target="_blank"><img src="{{wallet.img}}" class="img-responsive" width="100px"></a>
+                            <span>{{ wallet.coin }}: </span>
+                            <span class="blockchain-account">{{ wallet.account }}</span> <i class="fa fa-qrcode" title="QR code"></i>
+                            <a href="{{wallet.explorer}}" target="_blank" class="qrcode"><img src="{{wallet.img}}" class="img-responsive"></a>
                         </li>
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="footer-col col-md-4 text-center">
+                <div class="footer-col col-md-2 text-center">
                     <h3>{{ site.footer.social }}</h3>
                     <ul class="list-inline">
                         {% for network in site.social %}
@@ -25,7 +26,7 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="footer-col col-md-4 text-center">
+                <div class="footer-col col-md-5 text-center">
                     <h3>{{ site.footer.contact }}</h3>
                     <ul class="list-inline">
                         <li>

@@ -297,3 +297,11 @@ footer .footer-below {
     font-size: 1em;
     margin-bottom: 50px;
 }
+
+.blockchain-account {
+    font-size: 1em;
+}
+
+.qrcode {
+    display: none;
+}
