@@ -295,4 +295,5 @@ footer .footer-below {
 .footer-contact {
     color: #{{ site.color.secondary-light }};
     font-size: 1em;
+    margin-bottom: 50px;
 }
