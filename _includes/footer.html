@@ -3,22 +3,16 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4">
+                <div class="footer-col col-md-4 text-center">
                     <h3>{{ site.footer.wallets }}</h3>
                     <p class="small">Donations always welcome</p>
                     <ul class="list-unstyled">
                         {% for wallet in site.wallets %}
                         <li>
                             <strong>{{ wallet.coin }}</strong><br/><span class="hidden-xs">{{ wallet.account }}</span>
-                            <br/>
                             <a href="{{wallet.explorer}}" target="_blank"><img src="{{wallet.img}}" class="img-responsive" width="100px"></a>
                         </li>
                         {% endfor %}
-                    </ul>
-                </div>
-                <div class="footer-col col-md-4 text-center">
-                    <h3></h3>
-                    <ul class="list-inline">
                     </ul>
                 </div>
                 <div class="footer-col col-md-4 text-center">
@@ -29,6 +23,14 @@
                             <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4 text-center">
+                    <h3>{{ site.footer.contact }}</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="mailto:{{ site.email }}" class="footer-contact">{{ site.email }}</a>
+                        </li>
                     </ul>
                 </div>
             </div>

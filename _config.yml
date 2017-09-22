@@ -1,11 +1,11 @@
 # Site settings
 title: Blockchain Manchester
-small_title: BM
-url: https://blockchainmanc.github.io/
+url: http://www.blockchainmanchester.co.uk/
 description: "All things Blockchain. Love from Manchester."
-keywords: "Blockchain BTC ETH LTC"
+keywords: "Blockchain Manchester Cryptocurrency BTC ETH LTC Satoshi"
 strapline: "All things Blockchain. Love from Manchester."
 meta_author: Manchester Blockcahin
+email: satoshi@blockchainmanchester.co.uk
 
 # Google webmaster tools
 google_verify:
@@ -23,7 +23,7 @@ color:
 footer:
   social: Social
   wallets: Wallets
-  mailing: Mailing
+  contact: Contact
 
 # Social networks
 social:

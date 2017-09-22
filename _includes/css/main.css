@@ -292,4 +292,7 @@ footer .footer-below {
     padding-bottom: 1em;
 }
 
-
+.footer-contact {
+    color: #{{ site.color.secondary-light }};
+    font-size: 1em;
+}
