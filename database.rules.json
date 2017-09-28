@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "raw-emails": {
+      ".read": "auth != null",
+      ".write": "true"
+    },
+    "emails": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
