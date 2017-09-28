@@ -1,4 +1,6 @@
- <!-- jQuery Version 1.11.0 -->
+<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+
+<!-- jQuery Version 1.11.0 -->
 <script src="{{ "/js/jquery-1.11.0.js" }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
@@ -16,4 +18,15 @@
     $('.fa-qrcode').click(function () {
         $(this).next('.qrcode').toggle();
     });
+</script>
+
+<script src="{{ "/js/email-sender.js" }}"></script>
+
+<script>
+ var config = {
+     apiKey: "AIzaSyD7iPox-v3QJzUqqMWzolUqGBQ0s4GJV2U",
+     authDomain: "blockchainmanchester.firebaseapp.com",
+     databaseURL: "https://blockchainmanchester.firebaseio.com",
+ };
+ firebase.initializeApp(config);
 </script>
