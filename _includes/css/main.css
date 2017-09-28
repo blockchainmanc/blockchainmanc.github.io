@@ -120,7 +120,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 2em;
     }
 }
 
@@ -303,4 +303,17 @@ footer .footer-below {
 
 .qrcode {
     display: none;
+}
+
+.meetup {
+    padding-top: 25px;
+}
+
+.meetup a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    font-size: 1.5em;
+    color: #fff;
 }
