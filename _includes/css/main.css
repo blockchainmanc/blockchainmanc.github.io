@@ -120,7 +120,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 2em;
     }
 }
 
@@ -293,8 +293,8 @@ footer .footer-below {
 }
 
 .footer-contact {
-    color: #{{ site.color.secondary-light }};
     font-size: 1em;
+    color: #{{ site.color.secondary-light }};
 }
 
 .blockchain-account {
@@ -303,4 +303,17 @@ footer .footer-below {
 
 .qrcode {
     display: none;
+}
+
+.meetup {
+    padding-top: 25px;
+}
+
+.meetup a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    font-size: 1.5em;
+    color: #fff;
 }
