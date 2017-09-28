@@ -4,3 +4,5 @@ _site
 Gemfile.lock
 .idea/
 *.iml
+/blockchainmanc.github.io.iml
+/functions/node_modules/
