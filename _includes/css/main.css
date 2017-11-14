@@ -316,3 +316,15 @@ a.active {
     font-size: 1.5em;
     color: #fff;
 }
+
+.thumbnail {
+    height: 250px;
+}
+
+
+.thumbnail-stuff {
+    display: block;
+    height: 120px;
+    width: 100%;
+    background-size: cover;
+}
