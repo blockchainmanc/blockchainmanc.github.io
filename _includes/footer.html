@@ -16,7 +16,7 @@
                         {% endfor %}
                     </ul>
                 </div> -->
-                <div class="footer-col col-md-6">
+                <div class="footer-col col-md-4">
                     <h3>{{ site.footer.social }}</h3>
                     <ul class="list-inline">
                         {% for network in site.social %}
@@ -26,11 +26,19 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="footer-col col-md-6">
+                <div class="footer-col col-md-4">
                     <h3>{{ site.footer.contact }}</h3>
                     <ul class="list-inline">
                         <li>
                             <a href="mailto:{{ site.email }}" class="footer-contact">{{ site.email }}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Wallets</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://etherscan.io/enslookup?q=blockchainmanchester.eth" class="footer-contact">blockchainmanchester.eth</a>
                         </li>
                     </ul>
                 </div>
