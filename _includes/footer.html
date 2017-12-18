@@ -3,44 +3,56 @@
     <div class="footer-above text-center">
         <div class="container">
             <div class="row">
-<!--                 <div class="footer-col col-md-4 text-center">
+                 <div class="footer-col col-md-6 text-center">
                     <h3>{{ site.footer.wallets }}</h3>
                     <p class="small">Donations always welcome</p>
                     <ul class="list-unstyled">
                         {% for wallet in site.wallets %}
+                        <hr />
                         <li>
                             <span>{{ wallet.coin }}: </span>
-                            <span class="blockchain-account">{{ wallet.account }}</span> <i class="fa fa-qrcode" title="QR code"></i>
-                            <a href="{{wallet.explorer}}" target="_blank" class="qrcode"><img src="{{wallet.img}}" class="img-responsive"></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div> -->
-                <div class="footer-col col-md-4">
-                    <h3>{{ site.footer.social }}</h3>
-                    <ul class="list-inline">
-                        {% for network in site.social %}
-                        <li>
-                            <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                            <p>
+                                <span class="footer-contact"><a href="{{wallet.explorer}}" target="_blank">{{ wallet.account }}</a></span>
+                            </p>
+                            <p>
+                                <a href="{{wallet.explorer}}" target="_blank" class="qrcode">
+                                    <img src="{{wallet.img}}">
+                                </a>
+                            </p>
                         </li>
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="footer-col col-md-4">
-                    <h3>{{ site.footer.contact }}</h3>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="mailto:{{ site.email }}" class="footer-contact">{{ site.email }}</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>Wallets</h3>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://etherscan.io/enslookup?q=blockchainmanchester.eth" class="footer-contact">blockchainmanchester.eth</a>
-                        </li>
-                    </ul>
+
+                <div class="footer-col col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>{{ site.footer.social }}</h3>
+                            <ul class="list-inline">
+                                {% for network in site.social %}
+                                <li>
+                                    <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <h3>{{ site.footer.contact }}</h3>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="mailto:{{ site.email }}" class="footer-contact">{{ site.email }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <h3>Wallets</h3>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="https://etherscan.io/address/blockchainmanchester.eth" class="footer-contact">blockchainmanchester.eth</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

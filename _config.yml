@@ -2,7 +2,7 @@
 title: Blockchain Manchester
 url: http://www.blockchainmanchester.co.uk/
 description: "All things Blockchain. Love from Manchester."
-keywords: "Blockchain Manchester Cryptocurrency BTC ETH LTC Satoshi"
+keywords: "Blockchain Manchester Cryptocurrency BTC ETH LTC NEO Satoshi Distributed Ledger Technology DLT"
 strapline: "All things Blockchain. Love from Manchester."
 meta_author: Manchester Blockcahin
 email: satoshi@blockchainmanchester.co.uk
@@ -38,14 +38,14 @@ social:
 
 # wallets for tips
 wallets:
-  - coin: BTC
-    account: "1FtAP6ktAr49wgF5m6xyQN5CPCdvQ8jnQK"
-    img: /img/btc_qrcode_150x150.png
-    explorer: https://blockexplorer.com/address/1FtAP6ktAr49wgF5m6xyQN5CPCdvQ8jnQK
   - coin: ETH
     account: "blockchainmanchester.eth"
     img: /img/eth_qrcode_150x150.png
     explorer: https://etherscan.io/address/0x1652B165619b999065133428dd93023E7073254e
+  - coin: BTC
+    account: "1FtAP6ktAr49wgF5m6xyQN5CPCdvQ8jnQK"
+    img: /img/btc_qrcode_150x150.png
+    explorer: https://blockexplorer.com/address/1FtAP6ktAr49wgF5m6xyQN5CPCdvQ8jnQK
   - coin: LTC
     account: "LddXUkD37wSkoLh23EptoRyFnpbzUZnLpk"
     img: /img/ltc_qrcode_150x150.png
