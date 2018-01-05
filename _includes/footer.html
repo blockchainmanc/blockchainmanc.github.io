@@ -8,17 +8,17 @@
                     <p class="small">Donations always welcome</p>
                     <ul class="list-unstyled">
                         {% for wallet in site.wallets %}
-                        <hr />
+                        <!--<hr />-->
                         <li>
                             <span>{{ wallet.coin }}: </span>
                             <p>
                                 <span class="footer-contact"><a href="{{wallet.explorer}}" target="_blank">{{ wallet.account }}</a></span>
                             </p>
-                            <p>
-                                <a href="{{wallet.explorer}}" target="_blank" class="qrcode">
-                                    <img src="{{wallet.img}}">
-                                </a>
-                            </p>
+                            <!--<p>-->
+                                <!--<a href="{{wallet.explorer}}" target="_blank" class="qrcode">-->
+                                    <!--<img src="{{wallet.img}}">-->
+                                <!--</a>-->
+                            <!--</p>-->
                         </li>
                         {% endfor %}
                     </ul>
@@ -45,12 +45,6 @@
                             </ul>
                         </div>
                         <div class="col-md-12">
-                            <h3>Wallets</h3>
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="https://etherscan.io/address/blockchainmanchester.eth" class="footer-contact">blockchainmanchester.eth</a>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
